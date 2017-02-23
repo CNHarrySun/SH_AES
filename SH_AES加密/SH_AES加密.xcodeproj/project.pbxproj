@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031313AB1E5EFB8D0093445F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313AA1E5EFB8D0093445F /* main.m */; };
+		031313AE1E5EFB8D0093445F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313AD1E5EFB8D0093445F /* AppDelegate.m */; };
+		031313B11E5EFB8D0093445F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313B01E5EFB8D0093445F /* ViewController.m */; };
+		031313B41E5EFB8D0093445F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031313B21E5EFB8D0093445F /* Main.storyboard */; };
+		031313B61E5EFB8D0093445F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031313B51E5EFB8D0093445F /* Assets.xcassets */; };
+		031313B91E5EFB8D0093445F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031313B71E5EFB8D0093445F /* LaunchScreen.storyboard */; };
+		031313C41E5EFB8D0093445F /* SH_AES__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313C31E5EFB8D0093445F /* SH_AES__Tests.m */; };
+		031313CF1E5EFB8D0093445F /* SH_AES__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313CE1E5EFB8D0093445F /* SH_AES__UITests.m */; };
+		031313DE1E5EFBBD0093445F /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313DD1E5EFBBD0093445F /* NSString+AES256.m */; };
+		031313E11E5EFBD20093445F /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 031313E01E5EFBD20093445F /* NSData+AES256.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		031313C01E5EFB8D0093445F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0313139E1E5EFB8C0093445F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031313A51E5EFB8D0093445F;
+			remoteInfo = "SH_AES加密";
+		};
+		031313CB1E5EFB8D0093445F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0313139E1E5EFB8C0093445F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031313A51E5EFB8D0093445F;
+			remoteInfo = "SH_AES加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031313A61E5EFB8D0093445F /* SH_AES加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SH_AES加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031313AA1E5EFB8D0093445F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031313AC1E5EFB8D0093445F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		031313AD1E5EFB8D0093445F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		031313AF1E5EFB8D0093445F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		031313B01E5EFB8D0093445F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		031313B31E5EFB8D0093445F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031313B51E5EFB8D0093445F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031313B81E5EFB8D0093445F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031313BA1E5EFB8D0093445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031313BF1E5EFB8D0093445F /* SH_AES加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SH_AES加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031313C31E5EFB8D0093445F /* SH_AES__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_AES__Tests.m; sourceTree = "<group>"; };
+		031313C51E5EFB8D0093445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031313CA1E5EFB8D0093445F /* SH_AES加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SH_AES加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		031313CE1E5EFB8D0093445F /* SH_AES__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SH_AES__UITests.m; sourceTree = "<group>"; };
+		031313D01E5EFB8D0093445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031313DC1E5EFBBD0093445F /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		031313DD1E5EFBBD0093445F /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		031313DF1E5EFBD10093445F /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		031313E01E5EFBD20093445F /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031313A31E5EFB8D0093445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313BC1E5EFB8D0093445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313C71E5EFB8D0093445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0313139D1E5EFB8C0093445F = {
+			isa = PBXGroup;
+			children = (
+				031313A81E5EFB8D0093445F /* SH_AES加密 */,
+				031313C21E5EFB8D0093445F /* SH_AES加密Tests */,
+				031313CD1E5EFB8D0093445F /* SH_AES加密UITests */,
+				031313A71E5EFB8D0093445F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031313A71E5EFB8D0093445F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031313A61E5EFB8D0093445F /* SH_AES加密.app */,
+				031313BF1E5EFB8D0093445F /* SH_AES加密Tests.xctest */,
+				031313CA1E5EFB8D0093445F /* SH_AES加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031313A81E5EFB8D0093445F /* SH_AES加密 */ = {
+			isa = PBXGroup;
+			children = (
+				031313AC1E5EFB8D0093445F /* AppDelegate.h */,
+				031313AD1E5EFB8D0093445F /* AppDelegate.m */,
+				031313AF1E5EFB8D0093445F /* ViewController.h */,
+				031313B01E5EFB8D0093445F /* ViewController.m */,
+				031313DF1E5EFBD10093445F /* NSData+AES256.h */,
+				031313E01E5EFBD20093445F /* NSData+AES256.m */,
+				031313DC1E5EFBBD0093445F /* NSString+AES256.h */,
+				031313DD1E5EFBBD0093445F /* NSString+AES256.m */,
+				031313B21E5EFB8D0093445F /* Main.storyboard */,
+				031313B51E5EFB8D0093445F /* Assets.xcassets */,
+				031313B71E5EFB8D0093445F /* LaunchScreen.storyboard */,
+				031313BA1E5EFB8D0093445F /* Info.plist */,
+				031313A91E5EFB8D0093445F /* Supporting Files */,
+			);
+			path = "SH_AES加密";
+			sourceTree = "<group>";
+		};
+		031313A91E5EFB8D0093445F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				031313AA1E5EFB8D0093445F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031313C21E5EFB8D0093445F /* SH_AES加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				031313C31E5EFB8D0093445F /* SH_AES__Tests.m */,
+				031313C51E5EFB8D0093445F /* Info.plist */,
+			);
+			path = "SH_AES加密Tests";
+			sourceTree = "<group>";
+		};
+		031313CD1E5EFB8D0093445F /* SH_AES加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				031313CE1E5EFB8D0093445F /* SH_AES__UITests.m */,
+				031313D01E5EFB8D0093445F /* Info.plist */,
+			);
+			path = "SH_AES加密UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031313A51E5EFB8D0093445F /* SH_AES加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031313D31E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密" */;
+			buildPhases = (
+				031313A21E5EFB8D0093445F /* Sources */,
+				031313A31E5EFB8D0093445F /* Frameworks */,
+				031313A41E5EFB8D0093445F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SH_AES加密";
+			productName = "SH_AES加密";
+			productReference = 031313A61E5EFB8D0093445F /* SH_AES加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		031313BE1E5EFB8D0093445F /* SH_AES加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031313D61E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密Tests" */;
+			buildPhases = (
+				031313BB1E5EFB8D0093445F /* Sources */,
+				031313BC1E5EFB8D0093445F /* Frameworks */,
+				031313BD1E5EFB8D0093445F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031313C11E5EFB8D0093445F /* PBXTargetDependency */,
+			);
+			name = "SH_AES加密Tests";
+			productName = "SH_AES加密Tests";
+			productReference = 031313BF1E5EFB8D0093445F /* SH_AES加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		031313C91E5EFB8D0093445F /* SH_AES加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031313D91E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密UITests" */;
+			buildPhases = (
+				031313C61E5EFB8D0093445F /* Sources */,
+				031313C71E5EFB8D0093445F /* Frameworks */,
+				031313C81E5EFB8D0093445F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031313CC1E5EFB8D0093445F /* PBXTargetDependency */,
+			);
+			name = "SH_AES加密UITests";
+			productName = "SH_AES加密UITests";
+			productReference = 031313CA1E5EFB8D0093445F /* SH_AES加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0313139E1E5EFB8C0093445F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mobby;
+				TargetAttributes = {
+					031313A51E5EFB8D0093445F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3T8XA4F59Q;
+						ProvisioningStyle = Automatic;
+					};
+					031313BE1E5EFB8D0093445F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3T8XA4F59Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 031313A51E5EFB8D0093445F;
+					};
+					031313C91E5EFB8D0093445F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3T8XA4F59Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 031313A51E5EFB8D0093445F;
+					};
+				};
+			};
+			buildConfigurationList = 031313A11E5EFB8C0093445F /* Build configuration list for PBXProject "SH_AES加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0313139D1E5EFB8C0093445F;
+			productRefGroup = 031313A71E5EFB8D0093445F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031313A51E5EFB8D0093445F /* SH_AES加密 */,
+				031313BE1E5EFB8D0093445F /* SH_AES加密Tests */,
+				031313C91E5EFB8D0093445F /* SH_AES加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031313A41E5EFB8D0093445F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031313B91E5EFB8D0093445F /* LaunchScreen.storyboard in Resources */,
+				031313B61E5EFB8D0093445F /* Assets.xcassets in Resources */,
+				031313B41E5EFB8D0093445F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313BD1E5EFB8D0093445F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313C81E5EFB8D0093445F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031313A21E5EFB8D0093445F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031313B11E5EFB8D0093445F /* ViewController.m in Sources */,
+				031313E11E5EFBD20093445F /* NSData+AES256.m in Sources */,
+				031313DE1E5EFBBD0093445F /* NSString+AES256.m in Sources */,
+				031313AE1E5EFB8D0093445F /* AppDelegate.m in Sources */,
+				031313AB1E5EFB8D0093445F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313BB1E5EFB8D0093445F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031313C41E5EFB8D0093445F /* SH_AES__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031313C61E5EFB8D0093445F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031313CF1E5EFB8D0093445F /* SH_AES__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		031313C11E5EFB8D0093445F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031313A51E5EFB8D0093445F /* SH_AES加密 */;
+			targetProxy = 031313C01E5EFB8D0093445F /* PBXContainerItemProxy */;
+		};
+		031313CC1E5EFB8D0093445F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031313A51E5EFB8D0093445F /* SH_AES加密 */;
+			targetProxy = 031313CB1E5EFB8D0093445F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		031313B21E5EFB8D0093445F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031313B31E5EFB8D0093445F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031313B71E5EFB8D0093445F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031313B81E5EFB8D0093445F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031313D11E5EFB8D0093445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		031313D21E5EFB8D0093445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031313D41E5EFB8D0093445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		031313D51E5EFB8D0093445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		031313D71E5EFB8D0093445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SH_AES加密.app/SH_AES加密";
+			};
+			name = Debug;
+		};
+		031313D81E5EFB8D0093445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SH_AES加密.app/SH_AES加密";
+			};
+			name = Release;
+		};
+		031313DA1E5EFB8D0093445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SH_AES加密";
+			};
+			name = Debug;
+		};
+		031313DB1E5EFB8D0093445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3T8XA4F59Q;
+				INFOPLIST_FILE = "SH_AES加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iMobby.SH-AES--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SH_AES加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031313A11E5EFB8C0093445F /* Build configuration list for PBXProject "SH_AES加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031313D11E5EFB8D0093445F /* Debug */,
+				031313D21E5EFB8D0093445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031313D31E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031313D41E5EFB8D0093445F /* Debug */,
+				031313D51E5EFB8D0093445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031313D61E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031313D71E5EFB8D0093445F /* Debug */,
+				031313D81E5EFB8D0093445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031313D91E5EFB8D0093445F /* Build configuration list for PBXNativeTarget "SH_AES加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031313DA1E5EFB8D0093445F /* Debug */,
+				031313DB1E5EFB8D0093445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0313139E1E5EFB8C0093445F /* Project object */;
+}
